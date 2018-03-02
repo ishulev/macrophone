@@ -25,6 +25,12 @@ h1 {
     }
 }
 
+@media (max-width: 1180px) {
+    h1 {
+        display: inline;
+    }
+}
+
 body {
     min-height: 100vh;
     min-width: 100vw;
@@ -42,7 +48,7 @@ section {
 main {
     margin: 0 auto;
     background-repeat: no-repeat;
-    background-image: url('../assets/FSF.jpg');
+    background-image: url('../assets/images/HOME_WEB_bckgrnd.jpg');
     min-height: 100vh;
     max-width: 1280px;
     background-color: #0e0428;
@@ -50,6 +56,13 @@ main {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    background-image: url('../assets/images/HOME_WEB_bckgrnd.jpg');
+    h1 {
+        font-size: 70px;
+    }
 }
 
 header {
@@ -124,6 +137,12 @@ footer {
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 200px;
+}
+
+@media (max-width: 800px) {
+    footer {
+        flex-direction: column;
+    }
 }
 
 .listen-on {

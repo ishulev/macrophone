@@ -9,7 +9,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('sass:watch', function () {
-    gulp.watch('./scss/**/*.scss', ['sass']);
+    gulp.watch('./scss/*.scss', ['sass']);
 });
 
 gulp.task('connect', function() {
@@ -19,7 +19,7 @@ gulp.task('connect', function() {
 });
 
 gulp.task('watch', function () {
-    gulp.watch(['./index.html'], function() {
+    gulp.watch(['./index.html', 'css/styles.css'], function() {
         return connect.reload();
     });
 });
