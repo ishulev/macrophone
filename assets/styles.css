@@ -1,0 +1,166 @@
+h1,
+h2,
+span,
+p,
+a {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+h1 {
+    mix-blend-mode: difference;
+    font-size: 100px;
+    font-weight: 500;
+    display: inline-flex;
+    width: 100%;
+    letter-spacing: 39px;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+h1 span:last-of-type {
+    margin-right: -32px;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #0e0428;
+    overflow: hidden;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main {
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-image: url('FSF.jpg');
+    min-height: 100vh;
+    max-width: 1280px;
+    background-color: #0e0428;
+    background-position-x: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+header {
+    display: inline-flex;
+    align-items: center;
+}
+
+header img {
+    max-width: 54px;
+}
+
+header h2 {
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+header span {
+    font-size: 14px;
+}
+
+section p {
+    align-self: flex-start;
+    font-size: 24px;
+    text-decoration: underline;
+    margin-top: 0;
+}
+
+.social{
+    height: 48px;
+    width: 48px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a61736;
+}
+
+.social:hover {
+    background-color: #b83e4c;
+}
+
+.social span {
+    color: #0e0428;
+    font-size: 30px;
+}
+
+.social-fb {
+    justify-content: flex-end;
+}
+
+.social-fb span {
+    align-self: flex-end;
+    font-size: 38px;
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-right: 18px;
+}
+
+li:last-of-type {
+    margin-right: 0;
+}
+
+.mls {
+    display: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 200px;
+}
+
+.listen-on {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.listen-on p {
+    font-size: 54px;
+    display: block;
+    font-weight: 100;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.listen-on a {
+    height: 48px;
+    width: 120px;
+    display: flex;
+    background-color: #a61736;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.listen-on a:hover {
+    background-color: #b83e4c;
+}
+
+.listen-on span{
+    text-transform: none;
+    color: white;
+    font-size: 24px;
+    margin-top: -5px;
+}
